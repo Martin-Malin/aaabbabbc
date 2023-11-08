@@ -1,0 +1,1 @@
+﻿var v=new List<string>();int i=0;while(v.Count<4){if(args[0][i]=='c'){v.Add("c");i++;continue;}v.Add(args[0].Substring(i,2));i+=2;}string[]q={"aa","ab","ba","bb","c"};foreach(var k in q){if(!v.Contains(k)){Console.WriteLine(k);break;}}
